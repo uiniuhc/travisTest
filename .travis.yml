@@ -1,0 +1,13 @@
+language: node_js
+sudo: required
+
+os:
+  - linux-s390
+
+before_install:
+  - source travis-env.sh
+
+script:
+  - make install
+
+
