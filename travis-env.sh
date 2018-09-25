@@ -1,0 +1,2 @@
+nvm ls
+nvm --version
